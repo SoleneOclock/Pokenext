@@ -23,7 +23,7 @@ export default async function Home() {
       <h1 className="text-2xl text-tahiti">Pokedex</h1>
 
       <p className="bg-cyan-200">ici la liste des pokemons</p>
-      <div className='flex flex-wrap gap-1'>
+      <div className='flex flex-wrap gap-1 justify-center'>
         {
           pokemonList.map(pokemon => (
             <PokemonCard 

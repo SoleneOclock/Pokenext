@@ -14,7 +14,7 @@ export default function PokemonCard({ pokemon }: PokemonCardProps) {
   const [nbLikes, setNbLikes] = useState(0);
 
   return (
-    <div className="rounded-md bg-tahiti p-4 w-32">
+    <div className="rounded-md bg-tahiti p-4 w-[31%]">
       <img src={pokemon.sprites.regular} alt={pokemon.name.fr} />
       <h2 className='text-xl'>{pokemon.name.fr}</h2>
       <p>{pokemon.category}</p>
